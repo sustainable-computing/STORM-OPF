@@ -1,0 +1,31 @@
+name: opf
+channels:
+  - pytorch
+  - nvidia
+  - gurobi
+  - conda-forge
+  - defaults
+channel_priority: strict
+dependencies:
+  - tensorflow
+  - matplotlib
+  - numpy
+  - pandapower
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=11.8
+  - torchaudio
+  - torchvision
+  - numba[version='>=0.60,<0.61']
+  - llvmlite[version='>=0.43,<0.44']
+  - gurobi
+  - scikit-learn
+  - seaborn
+  - pyomo
+  - ipopt
+  - pip:
+      - tensorflow==2.15.1
+      - tensorflow-estimator==2.15.0
+      - tensorflow-io-gcs-filesystem==0.37.1
+variables:
+  PYTHONNOUSERSITE: '1'

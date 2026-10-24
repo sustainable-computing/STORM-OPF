@@ -1,0 +1,14 @@
+src/baselines/PINN/datasets/
+src/baselines/DeepOPF/datasets/
+src/baselines/OPF_DNN/datasets/
+src/scenarios/
+src/baselines/DeepOPF_ext_SCACOPF/
+src/baselines/CSCOPF/
+src/baselines/PSCOPF/
+src/baselines/ext_input/
+src/baselines//ext_input_shield/
+*.csv
+*.pyc
+*.pkl
+__pycache__/
+*.pb

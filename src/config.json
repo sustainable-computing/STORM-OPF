@@ -1,0 +1,17 @@
+{
+  "max_pen": 1000000000.0,
+  "feas_tol": 1e-6,
+  "eps": 1e-12,
+  "ctol": 1e-4,
+  "stress_cases": [
+    "load_extreme_high",
+    "load_extreme_low",
+    "fuel_price_up",
+    "fuel_price_down",
+    "geo_shift",
+    "extreme_weather",
+    "islanded_operation",
+    "nk_contingencies",
+    "reactive_scarcity"
+  ]
+}

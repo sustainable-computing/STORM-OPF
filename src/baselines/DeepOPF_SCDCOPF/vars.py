@@ -1,0 +1,9 @@
+model_hidden = 64
+training_seed = 0
+test_seed = 100
+train_epochs = 30
+learning_rate = 1e-3
+weight_decay = 1e-6
+batch_size = 512
+w_mse = 1.0
+w_pen = 1.0
